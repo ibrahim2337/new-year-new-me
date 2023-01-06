@@ -14,12 +14,13 @@
   background-image: url(/banner/banner2.png);
   background-repeat: no-repeat;
   text-align: right;
+  padding-right: 150px;
 }
 
 .header .header-title {
-  padding-top: 200px;
+  padding-top: 250px;
   padding-left: 800px;
-  padding-right: 200px;
+
   font-size: 45px;
   color: #000;
 }
@@ -27,7 +28,7 @@
 .header .header-para {
   padding-top: 20px;
   padding-left: 700px;
-  padding-right: 200px;
+
   font-size: 15px;
   color: #444343;
   margin-bottom: 20px;
@@ -35,8 +36,6 @@
 
 .header .btn-primary {
   font-size: 15px;
-  margin-top: 20px;
-  margin-right: 200px;
   padding: 10px 20px;
   border-radius: 5px;
   background-color: #f15b22;
@@ -51,7 +50,7 @@
 
 .failures {
   display: flex;
-  padding-top: 100px;
+  padding-top: 30px;
   padding-left: 150px;
   padding-right: 150px;
 }
@@ -69,21 +68,34 @@
 }
 
 .failures .box .failures-para {
-  font-size: 20px;
+  font-size: 17px;
   padding-bottom: 20px;
   text-align: left;
   color: #444343;
 }
 
 .failures .box .failures-points {
-  font-size: 15px;
   padding-left: 50px;
   text-align: left;
   color: #444343;
 }
 
-.failures .box .failures-points .points {
+.failures .failures-points {
+  list-style: none;
+  margin-left: -50px;
+}
+
+.failures .failures-points .list {
+  display: flex;
+  font-size: 15px;
+  color: #444343;
   padding-bottom: 5px;
+}
+
+.failures .points {
+  height: 15px;
+  width: 15px;
+  margin-right: 5px;
 }
 
 /* <!-- failures section starts --> */
@@ -91,6 +103,7 @@
 /* <!-- plan section starts --> */
 
 .main-plan {
+  margin-top: -80px;
   padding: 10px 150px;
 }
 
