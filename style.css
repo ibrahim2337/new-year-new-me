@@ -101,7 +101,7 @@
   padding-top: 35px;
   gap: 10px;
 }
-  /* box-1 starts */
+/* box-1 starts */
 
 .main-plan .plans .box-1 {
   text-align: center;
@@ -127,8 +127,8 @@
   padding-bottom: 20px;
 }
 
- /* box-1 end */
-  /* box-2 starts */
+/* box-1 end */
+/* box-2 starts */
 
 .main-plan .plans .box-2 {
   text-align: center;
@@ -154,8 +154,8 @@
   padding-bottom: 20px;
 }
 
- /* box-2 end */
-  /* box-3 starts */
+/* box-2 end */
+/* box-3 starts */
 
 .main-plan .plans .box-3 {
   text-align: center;
@@ -181,8 +181,8 @@
   padding-bottom: 20px;
 }
 
- /* box-3 end */
-  /* box-4 starts */
+/* box-3 end */
+/* box-4 starts */
 
 .main-plan .plans .box-4 {
   text-align: center;
@@ -209,6 +209,77 @@
   padding-bottom: 20px;
 }
 
- /* box-4 end */
+/* box-4 end */
 
 /* <!-- plan section ends --> */
+
+/* container section starts */
+
+.container{
+    background-image: url(/images/watch.png),url(/images/gradient1.png);
+    background-repeat: no-repeat;
+
+}
+
+.container .con-title {
+    font-size: 30px;
+    /* color: #fff; */
+}
+
+.container .btn-primary{
+    font-size: 15px;
+    margin-top: 20px;
+    padding: 15px 20px;
+    border-radius: 10px;
+    background-color: #f15b22;
+    color: #fff;
+}
+
+/* container section end */
+
+/* footer section starts */
+
+.footer{
+    display: flex;
+    padding: 50px 150px;
+    background-color: #151414;
+}
+
+.footer .footer-title{
+    padding-top:30px;
+    padding-right: 400px;
+    color:#fff;
+}
+
+.footer .footer-title .header-title{
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+.footer .footer-title .footer-para{
+    font-size: 15px;
+    padding-bottom: 15px;
+}
+
+.footer .footer-title .email{
+    font-size: 15px;
+    padding-bottom: 5px;
+}
+
+.footer .footer-title .phone{
+    font-size: 15px;
+    padding-bottom: 20px;
+}
+
+
+.footer .footer-title .icon img{
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+    
+}
+
+
+
+
+/* footer section ends */
