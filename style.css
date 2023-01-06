@@ -41,6 +41,8 @@
   border-radius: 5px;
   background-color: #f15b22;
   color: #fff;
+  border: none;
+  font-weight: 600;
 }
 
 /* header section ends*/
@@ -107,7 +109,7 @@
 
 .main-plan .plans .box-1 {
   text-align: center;
-  background-color: #f7e1c6;
+  background-color: #4f9da61a;
   padding: 0 20px;
   border-radius: 10px;
 }
@@ -126,7 +128,7 @@
 .main-plan .plans .box-1 .plans-para {
   font-size: 15px;
   color: #444343;
-  padding-bottom: 20px;
+  padding-bottom: 30px;
 }
 
 /* box-1 end */
@@ -134,7 +136,7 @@
 
 .main-plan .plans .box-2 {
   text-align: center;
-  background-color: #f7e1c6;
+  background-color: #4f9da61a;
   padding: 0 20px;
   border-radius: 10px;
 }
@@ -153,7 +155,7 @@
 .main-plan .plans .box-2 .plans-para {
   font-size: 15px;
   color: #444343;
-  padding-bottom: 20px;
+  padding-bottom: 30px;
 }
 
 /* box-2 end */
@@ -161,7 +163,7 @@
 
 .main-plan .plans .box-3 {
   text-align: center;
-  background-color: #f7e1c6;
+  background-color: #4f9da61a;
   padding: 0 20px;
   border-radius: 10px;
 }
@@ -180,7 +182,7 @@
 .main-plan .plans .box-3 .plans-para {
   font-size: 15px;
   color: #444343;
-  padding-bottom: 20px;
+  padding-bottom: 30px;
 }
 
 /* box-3 end */
@@ -188,7 +190,7 @@
 
 .main-plan .plans .box-4 {
   text-align: center;
-  background-color: #f7e1c6;
+  background-color: #4f9da61a;
   padding: 0 20px;
   border-radius: 10px;
 }
@@ -208,35 +210,52 @@
 .main-plan .plans .box-4 .plans-para {
   font-size: 15px;
   color: #444343;
-  padding-bottom: 20px;
+  padding-bottom: 30px;
 }
 
 /* box-4 end */
 
 /* <!-- plan section ends --> */
 
-/* container section starts */
+/* gradient section starts */
 
-.container {
-  background-image: url(/images/watch.png), url(/images/gradient1.png);
+.gradient {
+  padding: 50px 150px;
+  width: 85%;
+  margin: 0 auto;
+}
+
+.gradient .gradient-title {
+  background-image: linear-gradient(90deg, #f15b22 -10%, #f15d2200 100%),
+    url("images/watch.png");
   background-repeat: no-repeat;
+  border-radius: 8px;
+  padding: 30px 50px;
+  margin-bottom: 50px;
+  background-position: center;
+  background-size: cover;
 }
 
-.container .con-title {
-  font-size: 30px;
-  /* color: #fff; */
-}
-
-.container .btn-primary {
-  font-size: 15px;
-  margin-top: 20px;
-  padding: 10px 20px;
-  border-radius: 5px;
-  background-color: #f15b22;
+.gradient .gradient-title .header-title {
+  font-weight: 700;
+  font-size: 40px;
   color: #fff;
+  max-width: 450px;
+  margin-bottom: 24px;
 }
 
-/* container section end */
+.gradient .gradient-title .btn-primary {
+  color: #f15b22;
+  font-size: 15px;
+  border: 0;
+  margin-right: 200px;
+  padding: 10px 20px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  font-weight: 600;
+}
+
+/* gradient section end */
 
 /* footer section starts */
 
@@ -244,11 +263,12 @@
   display: flex;
   padding: 50px 150px;
   background-color: #151414;
+  margin-top: -40px;
 }
 
 .footer .footer-title {
   padding-top: 30px;
-  padding-right: 400px;
+  padding-right: 300px;
   color: #fff;
 }
 
@@ -280,7 +300,6 @@
 
 .footer .box {
   padding-top: 30px;
-  padding-right: 100px;
   color: #fff;
 }
 
@@ -295,14 +314,17 @@
   background-color: #151414;
   border-radius: 5px;
   margin-bottom: 20px;
+  border-color: #fff;
 }
 
 .footer .box .btn-primary {
   font-size: 15px;
+  font-weight: 600;
   padding: 10px 20px;
   border-radius: 5px;
   background-color: #fff;
   color: #f15b22;
+  border: none;
 }
 
 /* footer section ends */
