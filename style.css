@@ -12,11 +12,12 @@
 .header {
   height: 809px;
   background-image: url(/banner/banner2.png);
+  background-repeat: no-repeat;
   text-align: right;
 }
 
 .header .header-title {
-  padding-top: 250px;
+  padding-top: 200px;
   padding-left: 800px;
   padding-right: 200px;
   font-size: 45px;
@@ -29,14 +30,15 @@
   padding-right: 200px;
   font-size: 15px;
   color: #444343;
+  margin-bottom: 20px;
 }
 
 .header .btn-primary {
   font-size: 15px;
   margin-top: 20px;
   margin-right: 200px;
-  padding: 15px 20px;
-  border-radius: 10px;
+  padding: 10px 20px;
+  border-radius: 5px;
   background-color: #f15b22;
   color: #fff;
 }
@@ -215,71 +217,92 @@
 
 /* container section starts */
 
-.container{
-    background-image: url(/images/watch.png),url(/images/gradient1.png);
-    background-repeat: no-repeat;
-
+.container {
+  background-image: url(/images/watch.png), url(/images/gradient1.png);
+  background-repeat: no-repeat;
 }
 
 .container .con-title {
-    font-size: 30px;
-    /* color: #fff; */
+  font-size: 30px;
+  /* color: #fff; */
 }
 
-.container .btn-primary{
-    font-size: 15px;
-    margin-top: 20px;
-    padding: 15px 20px;
-    border-radius: 10px;
-    background-color: #f15b22;
-    color: #fff;
+.container .btn-primary {
+  font-size: 15px;
+  margin-top: 20px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #f15b22;
+  color: #fff;
 }
 
 /* container section end */
 
 /* footer section starts */
 
-.footer{
-    display: flex;
-    padding: 50px 150px;
-    background-color: #151414;
+.footer {
+  display: flex;
+  padding: 50px 150px;
+  background-color: #151414;
 }
 
-.footer .footer-title{
-    padding-top:30px;
-    padding-right: 400px;
-    color:#fff;
+.footer .footer-title {
+  padding-top: 30px;
+  padding-right: 400px;
+  color: #fff;
 }
 
-.footer .footer-title .header-title{
-    font-size: 30px;
-    padding-bottom: 20px;
+.footer .footer-title .header-title {
+  font-size: 30px;
+  padding-bottom: 20px;
 }
 
-.footer .footer-title .footer-para{
-    font-size: 15px;
-    padding-bottom: 15px;
+.footer .footer-title .footer-para {
+  font-size: 15px;
+  padding-bottom: 15px;
 }
 
-.footer .footer-title .email{
-    font-size: 15px;
-    padding-bottom: 5px;
+.footer .footer-title .email {
+  font-size: 15px;
+  padding-bottom: 5px;
 }
 
-.footer .footer-title .phone{
-    font-size: 15px;
-    padding-bottom: 20px;
+.footer .footer-title .phone {
+  font-size: 15px;
+  padding-bottom: 20px;
 }
 
-
-.footer .footer-title .icon img{
-    height: 30px;
-    width: 30px;
-    margin-right: 10px;
-    
+.footer .footer-title .icon img {
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
 }
 
+.footer .box {
+  padding-top: 30px;
+  padding-right: 100px;
+  color: #fff;
+}
 
+.footer .box .box-title {
+  font-size: 30px;
+  padding-bottom: 20px;
+}
 
+.footer .box input {
+  padding: 10px 20px;
+  color: #fff;
+  background-color: #151414;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.footer .box .btn-primary {
+  font-size: 15px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #f15b22;
+}
 
 /* footer section ends */
