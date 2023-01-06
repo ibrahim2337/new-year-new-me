@@ -1,86 +1,214 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
 
-*
-{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
 }
 
 /* header section starts*/
 
-.header{
-    height: 809px;
-    background-image: url(/banner/banner2.png);
-    text-align: right;
-    
-
+.header {
+  height: 809px;
+  background-image: url(/banner/banner2.png);
+  text-align: right;
 }
 
-.header .header-title{
-    padding-top: 250px;
-    padding-left: 800px;
-    padding-right: 200px;
-   font-size: 45px;
-   color: #000;
+.header .header-title {
+  padding-top: 250px;
+  padding-left: 800px;
+  padding-right: 200px;
+  font-size: 45px;
+  color: #000;
 }
 
-.header .header-para{
-    padding-top: 20px;
-    padding-left: 700px;
-    padding-right: 200px;
-    font-size: 15px;
-    color: #444343;
- }
+.header .header-para {
+  padding-top: 20px;
+  padding-left: 700px;
+  padding-right: 200px;
+  font-size: 15px;
+  color: #444343;
+}
 
- .header .btn-primary{
-    font-size: 15px;
-    margin-top: 20px;
-    margin-right: 200px;
-    padding: 15px 20px;
-    border-radius: 10px;
-    background-color: #f15b22;
-    color: #fff;
- }
+.header .btn-primary {
+  font-size: 15px;
+  margin-top: 20px;
+  margin-right: 200px;
+  padding: 15px 20px;
+  border-radius: 10px;
+  background-color: #f15b22;
+  color: #fff;
+}
 
 /* header section ends*/
 
 /* <!-- header section starts --> */
 
 .failures {
-    display: flex;
-    padding: 100px 150px;
+  display: flex;
+  padding-top: 100px;
+  padding-left: 150px;
+  padding-right: 150px;
 }
 
-.failures .box{
-    padding: 280px 50px;
-    text-align: left;
+.failures .box {
+  padding: 250px 50px;
+  text-align: left;
 }
 
-.failures .box .failures-title{
-    font-size: 35px;
-    padding-bottom: 30px;
-    text-align: left;
-    color: #000;
+.failures .box .failures-title {
+  font-size: 40px;
+  padding-bottom: 30px;
+  text-align: left;
+  color: #000;
 }
 
-.failures .box .failures-para{
-    font-size: 20px;
-    padding-bottom: 20px;
-    text-align: left;
-    color: #444343;
+.failures .box .failures-para {
+  font-size: 20px;
+  padding-bottom: 20px;
+  text-align: left;
+  color: #444343;
 }
 
-.failures .box .failures-points{
-    font-size: 15px;
-    padding-left: 50px;
-    text-align: left;
-    color: #444343;
+.failures .box .failures-points {
+  font-size: 15px;
+  padding-left: 50px;
+  text-align: left;
+  color: #444343;
 }
 
-.failures .box .failures-points .points{
-    padding-bottom: 5px;
+.failures .box .failures-points .points {
+  padding-bottom: 5px;
 }
 
 /* <!-- failures section starts --> */
+
+/* <!-- plan section starts --> */
+
+.main-plan {
+  padding: 10px 150px;
+}
+
+.main-plan .plan-title {
+  font-size: 40px;
+  text-align: center;
+  color: #000;
+}
+
+.main-plan .plans {
+  display: flex;
+  padding-top: 35px;
+  gap: 10px;
+}
+  /* box-1 starts */
+
+.main-plan .plans .box-1 {
+  text-align: center;
+  background-color: #f7e1c6;
+  padding: 0 20px;
+  border-radius: 10px;
+}
+
+.main-plan .plans .box-1 img {
+  margin-top: 30px;
+  padding-bottom: 25px;
+}
+
+.main-plan .plans .box-1 .plans-title {
+  font-size: 25px;
+  color: #000;
+  padding-bottom: 20px;
+}
+
+.main-plan .plans .box-1 .plans-para {
+  font-size: 15px;
+  color: #444343;
+  padding-bottom: 20px;
+}
+
+ /* box-1 end */
+  /* box-2 starts */
+
+.main-plan .plans .box-2 {
+  text-align: center;
+  background-color: #f7e1c6;
+  padding: 0 20px;
+  border-radius: 10px;
+}
+
+.main-plan .plans .box-2 img {
+  padding-bottom: 25px;
+  margin-top: 30px;
+}
+
+.main-plan .plans .box-2 .plans-title {
+  font-size: 25px;
+  color: #000;
+  padding-bottom: 20px;
+}
+
+.main-plan .plans .box-2 .plans-para {
+  font-size: 15px;
+  color: #444343;
+  padding-bottom: 20px;
+}
+
+ /* box-2 end */
+  /* box-3 starts */
+
+.main-plan .plans .box-3 {
+  text-align: center;
+  background-color: #f7e1c6;
+  padding: 0 20px;
+  border-radius: 10px;
+}
+
+.main-plan .plans .box-3 img {
+  padding-bottom: 25px;
+  margin-top: 30px;
+}
+
+.main-plan .plans .box-3 .plans-title {
+  font-size: 25px;
+  color: #000;
+  padding-bottom: 20px;
+}
+
+.main-plan .plans .box-3 .plans-para {
+  font-size: 15px;
+  color: #444343;
+  padding-bottom: 20px;
+}
+
+ /* box-3 end */
+  /* box-4 starts */
+
+.main-plan .plans .box-4 {
+  text-align: center;
+  background-color: #f7e1c6;
+  padding: 0 20px;
+  border-radius: 10px;
+}
+
+.main-plan .plans .box-4 img {
+  padding-bottom: 25px;
+  margin-top: 30px;
+}
+
+.main-plan .plans .box-4 .plans-title {
+  font-size: 25px;
+  color: #000;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.main-plan .plans .box-4 .plans-para {
+  font-size: 15px;
+  color: #444343;
+  padding-bottom: 20px;
+}
+
+ /* box-4 end */
+
+/* <!-- plan section ends --> */
