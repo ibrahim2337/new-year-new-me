@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* header section starts*/
+
+.header{
+    height: 809px;
+    background-image: url(/banner/banner2.png);
+    text-align: right;
+    
+
+}
+
+.header .header-title{
+    padding-top: 250px;
+    padding-left: 800px;
+    padding-right: 200px;
+   font-size: 45px;
+   color: #000;
+}
+
+.header .header-para{
+    padding-top: 20px;
+    padding-left: 700px;
+    padding-right: 200px;
+    font-size: 15px;
+    color: #444343;
+ }
+
+ .header .btn-primary{
+    font-size: 15px;
+    margin-top: 20px;
+    margin-right: 200px;
+    padding: 15px 20px;
+    border-radius: 10px;
+    background-color: #f15b22;
+    color: #fff;
+ }
+
+/* header section ends*/
+
+/* <!-- header section starts --> */
+
+.failures {
+    display: flex;
+    padding: 100px 150px;
+}
+
+.failures .box{
+    padding: 280px 50px;
+    text-align: left;
+}
+
+.failures .box .failures-title{
+    font-size: 35px;
+    padding-bottom: 30px;
+    text-align: left;
+    color: #000;
+}
+
+.failures .box .failures-para{
+    font-size: 20px;
+    padding-bottom: 20px;
+    text-align: left;
+    color: #444343;
+}
+
+.failures .box .failures-points{
+    font-size: 15px;
+    padding-left: 50px;
+    text-align: left;
+    color: #444343;
+}
+
+.failures .box .failures-points .points{
+    padding-bottom: 5px;
+}
+
+/* <!-- failures section starts --> */
