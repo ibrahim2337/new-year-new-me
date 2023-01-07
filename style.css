@@ -10,7 +10,7 @@
 /* header section starts*/
 
 .header {
-  height: 809px;
+  height: 100vh;
   background-image: url("./banner/banner.png");
   background-repeat: no-repeat;
   text-align: right;
@@ -18,8 +18,8 @@
 }
 
 .header .header-title {
-  padding-top: 250px;
-  padding-left: 800px;
+  padding-top: 150px;
+  padding-left: 700px;
 
   font-size: 45px;
   color: #000;
@@ -51,12 +51,18 @@
 .failures {
   display: flex;
   padding-top: 30px;
-  padding-left: 150px;
-  padding-right: 150px;
+  padding-left: 100px;
+  padding-right: 100px;
+  /* align-items: center; */
+}
+
+.failures .image .failure-image{
+  width: 450px;
+  height: 600px;
 }
 
 .failures .box {
-  padding: 250px 50px;
+  padding: 200px 50px;
   text-align: left;
 }
 
@@ -68,7 +74,7 @@
 }
 
 .failures .box .failures-para {
-  font-size: 17px;
+  font-size: 15px;
   padding-bottom: 20px;
   text-align: left;
   color: #444343;
@@ -87,7 +93,7 @@
 
 .failures .failures-points .list {
   display: flex;
-  font-size: 15px;
+  font-size: 14px;
   color: #444343;
   padding-bottom: 5px;
 }
